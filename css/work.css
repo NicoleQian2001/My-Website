@@ -24,7 +24,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
     font-weight: bold;
-    padding: 5% 10%;
+    padding: 5% 0;
     padding-left: 0;
   }
   
@@ -37,12 +37,11 @@ body {
     position: relative;
     height: 45px;
   }
-  .home, .work, .project-title1, .project-title2, .project-title3{
+  .home, .work, .project-title1, .project-title2, .project-title3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #11999E;
     font-weight: bold;
-    margin: 10px 20px;
     text-decoration: none;
     display: inline-block; 
     margin-right: 60px;
@@ -54,6 +53,7 @@ body {
     color: #11999E;
     font-weight: bold;
     display: inline-block;
+    text-decoration: none;
   }
   
   .home:hover {
@@ -81,12 +81,15 @@ body {
 
   .row {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .col {
     flex: 33.33%;
     text-align: left;
     padding: 5px;
+    width: 80%;
   }
   
   .btn {
@@ -135,9 +138,10 @@ body {
 
 
   .logo1:hover, .logo2:hover, .logo3:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
   }
   
   .logo1, .logo2, .logo3 {
     width: 80%;
   }
+
