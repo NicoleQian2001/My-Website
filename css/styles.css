@@ -24,7 +24,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
   font-weight: bold;
-  padding: 5% 10%;
+  padding: 5% 0; 
 }
 
 footer-link {
@@ -45,6 +45,7 @@ hr {
   background-color: #E4F9F5;
   position: relative;
   height: 45px;
+  align-items: center;
 }
 .home, .work{
   font-family: 'Montserrat', sans-serif;
@@ -63,6 +64,7 @@ hr {
   color: #11999E;
   font-weight: bold;
   display: inline-block;
+  text-decoration: none;
 }
 
 .home:hover {
@@ -95,7 +97,7 @@ p {
 }
 
 .coding-img {
-  width: 25%;
+  width: 30%;
   float: left;
   margin-right: 30px;
 }
@@ -107,13 +109,9 @@ p {
 }
 
 .ux-design-img {
-  width: 25%;
+  width: 30%;
   float: right;
   margin-left: 30px;
-}
-
-.pro {
-  text-decoration: underline;
 }
 
 .intro {
@@ -181,7 +179,6 @@ a {
   color: #EAF6F6;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
-  text-decoration: none;
 }
 
 a:hover{
