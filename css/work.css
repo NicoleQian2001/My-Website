@@ -138,7 +138,7 @@ body {
 
 
   .logo1:hover, .logo2:hover, .logo3:hover {
-    transform: scale(1.2);
+    transform: scale(1.06);
   }
   
   .logo1, .logo2, .logo3 {
