@@ -6,7 +6,6 @@ body {
 }
 
 h1 {
-  /* font-size: 5.625rem; */
   font-size: 4rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
@@ -25,10 +24,10 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
   font-weight: bold;
-  /* padding: 5% 0;  */
 }
 
 footer-link {
+  font-size: 1rem;
   color: #11999E;
 }
 
@@ -75,11 +74,11 @@ hr {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 130px;
+  padding-top: 90px;
 }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 5rem 0;
 }
 
 .bottom-container {
@@ -121,11 +120,6 @@ p {
   text-align: left;
 }
 
-.intro {
-  width: 30%;
-  margin: auto auto auto auto;
-}
-
 .sun {
   position: absolute;
   left: 150px;
@@ -134,15 +128,22 @@ p {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  right: 250px;
   top: 100px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  right: 1000px;
+  top: 500px;
 }
+
+.bi.bi-arrow-down {
+  width: 30px;
+  height: 25px;
+  color: #11999E;
+}
+
 
 .btn {
   background: #11cdd4;
@@ -173,7 +174,7 @@ p {
 
 .copyright {
   color: #EAF6F6;
-  font-size: 0.75rem;
+  font-size: 1rem;
   padding: 20px 0;
 }
 
@@ -192,8 +193,32 @@ a:hover{
   color: #000080;
 }
 
-.logo2 {
-  margin-top: 1.7em;
-  width: 600px;
-  height: 400px;
+.logo1:hover, .logo2:hover, .logo3:hover {
+  transform: scale(1.06);
+}
+
+.logo1, .logo2, .logo3 {
+  width: 80%;
+}
+
+.projects {
+  margin: 0 5rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.col {
+  flex: 33.33%;
+  text-align: left;
+  padding: 5px;
+  width: 0%;
+}
+
+.contact-me {
+  margin: 0 0 5rem 0;
 }
