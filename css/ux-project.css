@@ -68,7 +68,7 @@ body {
   }
   
   .middle-container {
-    padding: 5% 10%
+    padding: 10% 10%
   }
   
   .bottom-container {
@@ -78,6 +78,7 @@ body {
   
   p {
     line-height: 2;
+    padding: 1em 2em 2em;
   }
 
   .row {
@@ -88,7 +89,7 @@ body {
     flex: 33.33%;
     text-align: center;
   }
-  
+
   .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -164,7 +165,7 @@ body {
   }
 
 .cover {
-  width: 60%;
+  width: 70%;
 }
 
 .war-img {
@@ -177,5 +178,9 @@ body {
 
 #hifi-description {
   margin-bottom: 5%;
+}
+
+.solution-img {
+  width: 90%;
 }
 
