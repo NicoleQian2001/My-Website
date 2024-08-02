@@ -194,7 +194,7 @@ a:hover{
 }
 
 .logo1:hover, .logo2:hover, .logo3:hover {
-  transform: scale(1.06);
+  transform: scale(1.2);
 }
 
 .logo1, .logo2, .logo3 {
