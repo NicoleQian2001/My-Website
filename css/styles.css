@@ -214,7 +214,7 @@ a:hover{
 
 .col {
   flex: 33.33%;
-  text-align: left;
+  text-align: center;
   padding: 5px;
   width: 0%;
 }
